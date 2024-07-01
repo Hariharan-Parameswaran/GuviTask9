@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Q3Answer {
 
 	public static void main(String[] args) {
-		 Scanner scanner = new Scanner(System.in);
-	        System.out.print("Enter the number of value: ");
-	        int value = scanner.nextInt();
-	        scanner.close();
-	        
-	        int number = 1;
-	        
-	        for (int i = 1; i <= value; i++) {
-	            for (int j = 1; j <= i; j++) {
-	                System.out.print(number + " ");
-	                number++;
-	            }
-	            System.out.println();
-	        }
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the number of value: ");
+		int value = scanner.nextInt();
+		scanner.close();
+
+		int number = 1;
+
+		for (int i = 1; i <= value; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print(number + " ");
+				number++;
+			}
+			System.out.println();
+		}
 	}
 
 }
